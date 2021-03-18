@@ -271,6 +271,7 @@ class Stiffner:
             ax.add_patch(subbeam[i])
 
         plt.axis('scaled')
+        #ax.axis('scaled')
         ax.set_aspect('equal')
         ax.axis("off")
         ax.set_ylim(hh-1450, hh+50)

@@ -123,7 +123,7 @@ class MyFrame2(gui_stiff.MyFrame2):
         self.text_ctrl_bb1.SetValue(data[4])
         self.text_ctrl_tw1.SetValue(data[5])
         self.text_ctrl_tf1.SetValue(data[6])
-        data[7] = text.replace('\n',"")
+        data[7] = data[7].replace('\n',"")
         self.text_ctrl_rr1.SetValue(data[7])
         linecache.clearcache()
         #
@@ -139,7 +139,7 @@ class MyFrame2(gui_stiff.MyFrame2):
         self.text_ctrl_bb2.SetValue(data[4])
         self.text_ctrl_tw2.SetValue(data[5])
         self.text_ctrl_tf2.SetValue(data[6])
-        data[7] = text.replace('\n',"")
+        data[7] = data[7].replace('\n',"")
         self.text_ctrl_rr2.SetValue(data[7])
         linecache.clearcache()
         #
